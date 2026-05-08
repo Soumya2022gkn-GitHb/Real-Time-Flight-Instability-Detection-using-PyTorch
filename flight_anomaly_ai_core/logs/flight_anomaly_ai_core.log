@@ -1,0 +1,4 @@
+2026-05-09 00:40:45 | INFO | flight_anomaly_ai_core | Flight telemetry pipeline initialized.
+2026-05-09 00:40:45 | WARNING | flight_anomaly_ai_core | Telemetry oscillation threshold exceeded.
+2026-05-09 00:40:45 | ERROR | flight_anomaly_ai_core | Anomaly scoring model failed to load.
+2026-05-09 00:40:45 | CRITICAL | flight_anomaly_ai_core | Critical instability detected in flight stream.

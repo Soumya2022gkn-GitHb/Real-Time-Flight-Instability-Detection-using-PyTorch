@@ -1,0 +1,19 @@
+========================================
+ Flight Anomaly Detection Evaluation
+========================================
+
+Accuracy  : 0.9734
+Precision : 0.8400
+Recall    : 0.6931
+F1 Score  : 0.7595
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.99      4697
+           1       0.84      0.69      0.76       303
+
+    accuracy                           0.97      5000
+   macro avg       0.91      0.84      0.87      5000
+weighted avg       0.97      0.97      0.97      5000
