@@ -43,19 +43,75 @@ Telemetry Monitoring Dashboard
 flight_anomaly_ai_core/
 │
 ├── data_generation/
+│   │
+│   ├── generate_flight_data.py
+│   ├── inject_anomalies.py
+│   ├── simulate_instability.py
+│   └── generate_telemetry_stream.py
+│
 ├── dataset/
+│   │
+│   ├── flight_telemetry.csv
+│   ├── processed_features.csv
+│   └── anomaly_labels.csv
+│
 ├── feature_engineering/
+│   │
+│   ├── rolling_statistics.py
+│   ├── altitude_features.py
+│   ├── velocity_features.py
+│   ├── oscillation_detection.py
+│   └── normalize_features.py
+│
 ├── training/
+│   │
+│   ├── train_isolation_forest.py
+│   ├── train_autoencoder.py
+│   ├── evaluate_model.py
+│   └── anomaly_scoring.py
+│
 ├── models/
+│   │
+│   ├── isolation_forest.pkl
+│   ├── autoencoder.pth
+│   └── scaler.pkl
+│
 ├── inference/
+│   │
+│   ├── predict_anomalies.py
+│   ├── realtime_inference.py
+│   └── telemetry_monitor.py
+│
 ├── visualization/
+│   │
+│   ├── altitude_anomalies.png
+│   ├── velocity_spikes.png
+│   ├── oscillation_detection.png
+│   └── anomaly_dashboard.png
+│
 ├── app/
+│   │
+│   ├── app.py
+│   ├── dashboard.py
+│   └── telemetry_viewer.py
+│
 ├── utils/
+│   │
+│   ├── logger.py
+│   ├── helpers.py
+│   └── config.py
+│
 ├── tests/
+│   │
+│   ├── test_feature_engineering.py
+│   ├── test_training.py
+│   └── test_inference.py
 │
 ├── requirements.txt
 ├── README.md
+├── .gitignore
 └── main.py
+
 ```
 
 ---
