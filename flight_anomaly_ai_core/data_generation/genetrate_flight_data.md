@@ -12,13 +12,6 @@ The `generate_flight_data.py` script generates synthetic aerospace telemetry dat
 | `Roll` | Wing up/down rotation | Banking left/right |
 | `Yaw` | Nose left/right rotation | Turning nose sideways |
 
-Term,          What it describes,         Simple motion
-Altitude,      Height,                    Up/down position
-Velocity,      Speed and direction,       How fast and where it moves
-Pitch,         Nose up/down rotation,     Climb/dive attitude
-Roll,          Wing up/down rotation,     Banking left/right
-Yaw,           Nose left/right rotation,  Turning nose sideways
-
 The generated telemetry dataset acts as the foundation for:
 - anomaly injection,
 - feature engineering,
