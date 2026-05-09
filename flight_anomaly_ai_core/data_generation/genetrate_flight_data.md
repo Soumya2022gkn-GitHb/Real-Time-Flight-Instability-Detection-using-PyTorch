@@ -1,5 +1,7 @@
 # ✈️ Flight Telemetry Data Generator
 
+The script "generate_flight_data.py" is responsible for generating synthetic flight telemetry data for the flight_anomaly_ai_core project. It simulates realistic aircraft telemetry signals such as altitude, velocity, pitch, roll, and yaw over time and saves the generated dataset as a CSV file for downstream anomaly detection pipelines.
+
 ## Overview
 
 The `generate_flight_data.py` script generates synthetic aerospace telemetry data for the `flight_anomaly_ai_core` project. The script simulates realistic aircraft flight behavior by producing time-series telemetry signals such as altitude, velocity, pitch, roll, and yaw.
